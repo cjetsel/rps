@@ -1,5 +1,5 @@
 console.log("hey girl hey");
-let choice = ["rock", "paper", "scissors"]
+let choice = ["rock", "paper", "scissors", "lizard", "spock"]
 let computerChoice = choice[Math.floor(Math.random() * choice.length)];
 let result = "";
 
@@ -19,7 +19,7 @@ function play(choose) {
       declare(result, choose);
       return result;
     }
-    else computerChoice == "scissors" ? result = "win" : result = "lose";
+    else computerChoice == "scissors" || computerChoice == "lizard" ? result = "win" : result = "lose";
     console.log(result);
     declare(result, choose);
     return result;
@@ -31,19 +31,43 @@ function play(choose) {
       declare(result, choose);
       return result;
     }
-    computerChoice == "scissors" ? result = "lose" : result = "win";
+    computerChoice == "rock" || computerChoice == "spock" ? result = "win" : result = "lose";
     console.log(result);
     declare(result, choose);
     return result;
   }
-  else {
+  else if (choose == "scissors") {
     if (choose == computerChoice) {
       result = "tie";
       console.log(result);
       declare(result, choose);
       return result;
     }
-    computerChoice == "paper" ? result = "win" : result = "lose";
+    computerChoice == "paper" || computerChoice == "lizard" ? result = "win" : result = "lose";
+    console.log(result);
+    declare(result, choose);
+    return result;
+  }
+  else if (choose == "lizard") {
+    if (choose == computerChoice) {
+      result = "tie";
+      console.log(result);
+      declare(result, choose);
+      return result;
+    }
+    computerChoice == "spock" || computerChoice == "paper" ? result = "win" : result = "lose";
+    console.log(result);
+    declare(result, choose);
+    return result;
+  }
+  else if (choose == "spock") {
+    if (choose == computerChoice) {
+      result = "tie";
+      console.log(result);
+      declare(result, choose);
+      return result;
+    }
+    computerChoice == "rock" || computerChoice == "scissors" ? result = "win" : result = "lose";
     console.log(result);
     declare(result, choose);
     return result;

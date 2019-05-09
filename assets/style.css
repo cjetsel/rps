@@ -1,5 +1,6 @@
 body {
-  background-color: ghostwhite;
+  background-color: #130b24;
+
 }
 
 .h100 {
@@ -10,96 +11,105 @@ body {
   height: 20vw;
 }
 
-img#paper {
-  height: 40%;
-  transform: translateY(-35px)
-}
-
-img#scissors{
-  height: 40%;
-  transform: translateY(-35px)
+.playbox {
+  background-color:  #41566bcf;
 }
 
 #rock {
-    background-image: url(/assets/img/rockoutline.png);
+    background-image: url(/assets/img/rock.png);
     background-repeat: no-repeat;
     background-position: center;
-    background-size: 20%;
-    height: 10vw;
+    background-size: 25%;
+    height: 15vw;
+    text-shadow: 0px 0px 4px #292929;
 
 }
 
 
 
 #rock:hover {
-    background-image: url(/assets/img/rock.png);
+    background-image: url(/assets/img/rockoutline.png);
     background-repeat: no-repeat;
     background-position: center;
-    background-size: 25%;
-    height: 10vw;
+    background-size: 30%;
+    height: 15vw;
+    color: #00a8f3;
+    text-shadow: 0px 0px 4px #000000;
  
 }
 
 #paper {
-  background-image: url(/assets/img/paperoutline.png);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: 20%;
-  height: 10vw;
-}
-
-#paper:hover {
   background-image: url(/assets/img/paper.png);
   background-repeat: no-repeat;
   background-position: center;
-  background-size: 25%;
-  height: 10vw;
+  background-size: 50%;
+  height: 15vw;
+  text-shadow: 0px 0px 4px #292929;
+}
+
+#paper:hover {
+  background-image: url(/assets/img/paperoutline.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 58%;
+  height: 15vw;
+  color: #b83dba;
+  text-shadow: 0px 0px 4px #000000;
 }
 
 #scissors{
-  background-image: url(/assets/img/scissorsoutline.png);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: 20%;
-  height: 10vw;
-}
-
-#scissors:hover {
   background-image: url(/assets/img/scissors.png);
   background-repeat: no-repeat;
   background-position: center;
-  background-size: 25%;
-  height: 10vw;
+  background-size: 50%;
+  height: 15vw;
+  text-shadow: 0px 0px 4px #292929;
+}
+
+#scissors:hover {
+  background-image: url(/assets/img/scissorsoutline.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 58%;
+  height: 15vw;
+  color: #ec1c24;
+  text-shadow: 0px 0px 4px #000000;
 }
 
 #lizard{
-  background-image: url(/assets/img/lizardoutline.png);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: 20%;
-  height: 10vw;
-}
-
-#lizard:hover {
   background-image: url(/assets/img/lizard.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: 25%;
-  height: 10vw;
+  height: 15vw;
+  text-shadow: 0px 0px 4px #292929;
+}
+
+#lizard:hover {
+  background-image: url(/assets/img/lizardoutline.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 30%;
+  height: 15vw;
+  color: #0ed145;
+  text-shadow: 0px 0px 4px #000000;
 }
 
 #spock{
-  background-image: url(/assets/img/spockoutline.png);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: 20%;
-  height: 10vw;
-}
-
-#spock:hover {
   background-image: url(/assets/img/spock.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: 25%;
-  height: 10vw;
+  height: 15vw;
+  text-shadow: 0px 0px 4px #292929;
+}
+
+#spock:hover {
+  background-image: url(/assets/img/spockoutline.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 30%;
+  height: 15vw;
+  color: #ff7f27;
+  text-shadow: 0px 0px 4px #000000;
 }

@@ -11,44 +11,45 @@
   <link rel="stylesheet" href="/assets/style.css">
 </head>
 
-<body>
-  <header class="">
+<body class="text-white">
+  <header class="py-5">
     <h1 class="text-center">Wanna Play A Game?</h1>
     <h4 class="text-center">Choose your hand!</h4>
   </header>
   <main>
     <div class="container-fluid">
-      <div class="row justify-content-center" id="winner"></div>
-      <div class="row justify-content-center">
-        <div class="col-2 align-content-center" id="rock" onclick="play('rock');declare(result)">
-          <h3 class="hide text-center">Rock</h3>
-        </div>
-        <div class="col-2 align-content-center" id="paper" onclick="play('paper');declare(result)">
-          <h3 class="hide text-center">Paper</h3>
-        </div>
-        <div class="col-2 align-content-center" id="scissors" onclick="play('scissors');declare(result)">
-          <h3 class="hide text-center">Scissors</h3>
-        </div>
-        <div class="col-2 align-content-center" id="lizard" onclick="play('lizard');declare(result)">
-          <h3 class="hide text-center">Lizard</h3>
-        </div>
-        <div class="col-2 align-content-center" id="spock" onclick="play('spock');declare(result)">
-          <h3 class="hide text-center">Spock</h3>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-5">
-          <h2 class="text-right">You</h2>
-          <h3 id="player" class="text-right"></h3>
+      <div class="row pb-5">
+        <div class="col">
+          <!-- <h2 class="text-right">You</h2> -->
+          <h5 id="player" class="text-right text-muted"><em>you</em></h5>
         </div>
         <div class="col-1">
-          <h2 class="text-center">vs</h2>
+          <h5 class="text-center">vs</h5>
         </div>
-        <div class="col-5">
-          <h2 class="text-left">Computer</h2>
-          <h3 id="computer" class="text-left"></h3>
+        <div class="col">
+          <!-- <h2 class="text-left">Computer</h2> -->
+          <h5 id="computer" class="text-left text-muted"><em>computer</em></h5>
         </div>
       </div>
+      <div class="row justify-content-center" id="winner"></div>
+      <div class="row justify-content-around rounded text-white playbox mx-5 pt-4 ">
+        <div class="col-2 align-content-center pr-0" id="rock" onclick="play('rock');declare(result)">
+          <h5 class="text-center">Rock</h5>
+        </div>
+        <div class="col-2 align-content-center pr-0" id="paper" onclick="play('paper');declare(result)">
+          <h5 class="hide text-center">Paper</h5>
+        </div>
+        <div class="col-2 align-content-center pr-0" id="scissors" onclick="play('scissors');declare(result)">
+          <h5 class="hide text-center">Scissors</h5>
+        </div>
+        <div class="col-2 align-content-center pr-0" id="lizard" onclick="play('lizard');declare(result)">
+          <h5 class="hide text-center">Lizard</h5>
+        </div>
+        <div class="col-2 align-content-center" id="spock" onclick="play('spock');declare(result)">
+          <h5 class="hide text-center">Spock</h5>
+        </div>
+      </div>
+
 
 
   </main>
