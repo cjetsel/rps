@@ -1,4 +1,3 @@
-console.log("hey girl hey");
 let choice = ["rock", "paper", "scissors", "lizard", "spock"]
 let computerChoice = choice[Math.floor(Math.random() * choice.length)];
 let result = "";
