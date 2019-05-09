@@ -1,4 +1,105 @@
-h100 {
+body {
+  background-color: ghostwhite;
+}
+
+.h100 {
   height: 100vw;
 }
 
+.h20 {
+  height: 20vw;
+}
+
+img#paper {
+  height: 40%;
+  transform: translateY(-35px)
+}
+
+img#scissors{
+  height: 40%;
+  transform: translateY(-35px)
+}
+
+#rock {
+    background-image: url(/assets/img/rockoutline.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 20%;
+    height: 10vw;
+
+}
+
+
+
+#rock:hover {
+    background-image: url(/assets/img/rock.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 25%;
+    height: 10vw;
+ 
+}
+
+#paper {
+  background-image: url(/assets/img/paperoutline.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 20%;
+  height: 10vw;
+}
+
+#paper:hover {
+  background-image: url(/assets/img/paper.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 25%;
+  height: 10vw;
+}
+
+#scissors{
+  background-image: url(/assets/img/scissorsoutline.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 20%;
+  height: 10vw;
+}
+
+#scissors:hover {
+  background-image: url(/assets/img/scissors.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 25%;
+  height: 10vw;
+}
+
+#lizard{
+  background-image: url(/assets/img/lizardoutline.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 20%;
+  height: 10vw;
+}
+
+#lizard:hover {
+  background-image: url(/assets/img/lizard.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 25%;
+  height: 10vw;
+}
+
+#spock{
+  background-image: url(/assets/img/spockoutline.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 20%;
+  height: 10vw;
+}
+
+#spock:hover {
+  background-image: url(/assets/img/spock.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 25%;
+  height: 10vw;
+}
